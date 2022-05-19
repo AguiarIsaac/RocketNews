@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Koulen', cursive;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+#content{
+    width: 50%;
+    height: 100%;
+    background-color: #121214;
+    padding: 3rem 0 0 3rem;
+}
+
+#logo {
+    width: 24rem;
+}
+
+#arrowR {
+    width: 1.5rem;
+}
+#background  {
+    width: 50%;
+    height: 100%;
+}
+
+#background img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#texts {
+    margin-top: 5.5rem;
+}
+#texts h3 {
+    color: #08C05E;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#texts p {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0.75rem 0;
+}
+
+#texts p:last-child {
+    font-weight: normal;
+    color: #A8A8A8;
+    font-size: 19px;
+}
+
+#input {
+    margin-top: 3rem;
+}
+
+#input p {
+    color:#A8A8A8;
+    font-weight: bold;
+}
+
+.boxInput {
+    display: flex;
+    position: absolute;
+    width: 70%;
+}
+
+.boxInput button {
+    border: none;
+    padding: 0 0.75rem;
+    background: #8257E5;
+}
+
+#email {
+    height: 2.5rem;
+    padding: 1rem;
+    border: none;
+    width: 75%;
+}
