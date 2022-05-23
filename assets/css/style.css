@@ -94,6 +94,7 @@ main {
     border: none;
     padding: 0 0.75rem;
     background: #8257E5;
+    cursor: pointer;
 }
 
 #email {
@@ -101,6 +102,10 @@ main {
     padding: 1rem;
     border: none;
     width: 75%;
+}
+
+#email:focus {
+    outline: none;
 }
 
 #content a {
